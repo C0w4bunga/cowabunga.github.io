@@ -1,6 +1,28 @@
 @import "event.css?world=de5";
 @import url("//fonts.googleapis.com/css?family=Lato:400,700");
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+:root {
+  --primary: #425062;
+  --chat_bg: #000000;
+  --area_bg: #425062;
+  --mainheader_bg: #000000;
+  --border: #797979;
+  --global_font: #e7e9eb;
+  --rbgcolor: #ffffff;
+  --linkcolor: #3ba2dd;
+  --chat_highlight: #b4d273;
+  --chat_group: #ff962e;
+  --chat_clan: #ff4e4de0;
+  --chat_scream: #6a9dff;
+  --chat_global: #fbebad;
+  --chat_whisper: #00cf16;
+  --chat_weather: #ffb400;
+  --color_healthok: #73ff73;
+  --npc_highlight: #b4d273;
+  --blauer_indicator: #dd613b;
+}
+
 html,
 body {
   margin: 0;
@@ -10,7 +32,7 @@ body {
   box-sizing: border-box;
 }
 html {
-  background: #313131;
+  background: #646464;
 }
 body {
   font-size: 13px;
@@ -628,7 +650,7 @@ a[href="main.php?finish=1"]:hover {
 }
 .abilitymenu td {
   border: 1px solid #ddd;
-  background: #fafafa;
+  background: var(--area_bg);
   color: #333;
   padding: 2px 5px;
 }
@@ -949,7 +971,7 @@ html[id^="ItemFrame"]:before {
 .frameitembg .listrow {
   padding: 0 5px;
   min-height: 18px;
-  background: #fafafa;
+  background: var(--area_bg);
   font-size: 12px;
   line-height: 18px;
 }
@@ -1200,7 +1222,7 @@ html[id^="ItemFrame"]:before {
   padding: 2px 3px;
   padding-left: 9px;
   padding-right: 70px;
-  background: #fafafa;
+  background: var(--area_bg);
   width: calc(100% + 12px);
   margin: 0 -6px;
   min-height: 19px;
@@ -1367,7 +1389,7 @@ html[id^="ItemFrame"]:before {
   padding: 5px;
 }
 .listitemrow[id^="itemarea"]:nth-of-type(2n) {
-  background-color: #fafafa;
+  background-color: var(--area_bg);
 }
 b + br + .listitemrow[id^="itemarea"],
 b + br + #itemunusedzk {
@@ -1456,11 +1478,11 @@ table.areadescription .mainheader {
 }
 table.areadescription .areadescription {
   padding: 11px;
-  background: #fafafa;
+  background: var(--area_bg);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 table.areadescription tr:nth-of-type(2) .areadescription {
-  background: #fafafa url(i/noise.png) left top repeat-x;
+  background: var(--area_bg) url(i/noise.png) left top repeat-x;
 }
 .listusersrow .fastattack::after {
   content: "\2694";
@@ -1509,7 +1531,7 @@ table.areadescription tr:nth-of-type(2) .areadescription {
   margin: 0;
   height: auto;
   min-height: 0;
-  background: #fafafa;
+  background: var(--area_bg);
   box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
 }
 .listusersrow td,
