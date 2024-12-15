@@ -866,10 +866,9 @@ p.worldsay tr[bgcolor="#FFAEA1"] td {
 td.mainheader {
   font-size: 35px;
   background-color: var(--mainheader_bg);
-  border: 1px solid var(--border) !important;
 }
 table.areadescription {
-  /* border: 1px solid var(--border); */
+  border: 1px solid var(--border);
   background-color: var(--area_bg);
   width: 100%;
 }
