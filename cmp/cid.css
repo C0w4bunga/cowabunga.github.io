@@ -22,7 +22,7 @@ Chrome Browser: listitemrow does not properly fit;
 	p.listitemrow img[src$="icon_transfer.gif"] 			{ display: none; }
 	p.listitemrow img[src$="icon_drop.gif"] 			{ display: none; }
 	p.listitemrow img[src$="icon_view.gif"] 			{ display: none; }
-	p.listitemrow:hover a[href*="action=watch"]:before 		{ content: url(../images/icon_view.gif); position: absolute; top: 2px; right: 28px; opacity: 0.80; }
+	p.listitemrow:hover a[href*="action=watch"]:before 		{ content: "\f06e"; position: absolute; top: 2px; right: 28px; opacity: 0.80; }
 	p.listitemrow:hover a[href*="action=watch"]:hover:before 	{ opacity: 1.00; }
 
 	p.listitemrow:hover a[href*="action=manydrop"]:before 		{ content: url(../images/icon_drop.gif); position: absolute; top: 2px; right: 16px; opacity: 0.80; }
