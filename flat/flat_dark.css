@@ -206,7 +206,7 @@ input:not([type]) {
 }
 .framemainbg,
 .framemainbg td {
-  color: #222;
+  color: #fafafa;
 }
 .listusersrow img[src$="blase.gif"],
 .friendlist img[src$="blase.gif"] {
