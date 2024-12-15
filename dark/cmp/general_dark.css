@@ -20,6 +20,7 @@
   --color_healthok: #73ff73;
   --npc_highlight: #b4d273;
   --blauer_indicator: #dd613b;
+  --item_equipped: #00f7ff;
 }
 
 .framebannerbg td[align="center"] {
@@ -196,7 +197,7 @@ a[href*="msg_isreport"]::after {
 }
 .itemequipped {
   font-weight: bold;
-  color: #00f7ff;
+  color: var(--item_equipped);
 }
 .itemmagic {
   font-weight: bold;
@@ -959,22 +960,21 @@ p.positiontext {
   padding: 1px;
   padding-left: 1px;
   /* border: 1px solid var(--border); */
-  /* border-top: 0px; */
+  border-top: 1px solid var(--border);
   overflow: hidden;
 }
 .itemlistcaption,
 .listplaceitemsrow {
   max-width: calc(90% + 40px + 0.5em) !important;
   background-color: var(--mainheader_bg);
-  border: 1px solid var(--border);
+  border: 1px solid var(--item_equipped);
   padding: 1px;
   overflow: hidden;
-  /* border-top: 0px; */
 }
 p.personlistcaption {
   font-weight: bold;
   padding: 1px;
-  border-bottom: 1px solid var(--border);
+  border: 1px solid var(--border);
 }
 p.itemlistcaption {
   font-weight: bold;
