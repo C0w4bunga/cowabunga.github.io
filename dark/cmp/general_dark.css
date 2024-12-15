@@ -957,7 +957,7 @@ p.positiontext {
   background-color: var(--area_bg);
   padding: 1px;
   padding-left: 1px;
-  border: 1px solid var(--border);
+  /* border: 1px solid var(--border); */
   /* border-top: 0px; */
   overflow: hidden;
 }
@@ -973,6 +973,7 @@ p.positiontext {
 p.personlistcaption {
   font-weight: bold;
   padding: 1px;
+  border-bottom: 1px solid var(--border);
 }
 p.itemlistcaption {
   font-weight: bold;
