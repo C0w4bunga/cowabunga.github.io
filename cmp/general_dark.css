@@ -533,7 +533,7 @@ p {
 
 /* body */
 body {
-  background-color: var(--mainheader_bg);
+  background-color: var(--primary);
   margin: 5px;
 }
 
@@ -877,7 +877,7 @@ td.areadescription {
   padding: 0px;
 }
 .tdplaceenv {
-  /* border: 1px solid var(--border) !important; */
+  border: 1px solid var(--area_bg) !important;
 }
 .imageborder {
   border: 1px solid #797979;
