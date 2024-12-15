@@ -979,6 +979,7 @@ p.personlistcaption {
 p.itemlistcaption {
   font-weight: bold;
   padding: 1px;
+  border: 1px solid var(--border);
 }
 
 /*.listusersrow font[color="#0055AA"] {color: #73ffff;}*/
