@@ -1,7 +1,8 @@
 /* GLOBAL VARS */
 
 :root {
-  --primary: #202020;
+  --primary: #22262d;
+  --npc_list_bg: #202020;
   --chat_bg: #000000;
   --area_bg: #22262d;
   --mainheader_bg: #000000;
@@ -954,7 +955,7 @@ p.positiontext {
 .personlistcaption,
 .listusersrow {
   max-width: calc(90% + 50px + 0.5em) !important;
-  background-color: var(--area_bg);
+  background-color: var(--npc_list_bg);
   padding: 1px;
   padding-left: 1px;
   /* border: 1px solid var(--border); */
