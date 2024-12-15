@@ -30,7 +30,7 @@
     font-size: 30px;
     position: absolute;
     right: 5px;
-    background: var(--mainheader_bg);
+    background: var(--area_bg);
     padding: 7px;
     display: inline;
     width: 30px;
@@ -49,7 +49,7 @@
     font-size: 30px;
     position: absolute;
     right: 60px;
-    background: var(--mainheader_bg);
+    background: var(--area_bg);
     padding: 7px;
     display: inline;
     width: 30px;
@@ -67,7 +67,7 @@
     font-size: 30px;
     position: absolute;
     right: 5px;
-    background: var(--mainheader_bg);
+    background: var(--area_bg);
     display: inline;
     width: 30px;
     height: 30px;
