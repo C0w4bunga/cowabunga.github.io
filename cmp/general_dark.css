@@ -3,7 +3,7 @@
 :root {
   --primary: #202020;
   --chat_bg: #000000;
-  --area_bg: #2d333c;
+  --area_bg: #22262d;
   --mainheader_bg: #000000;
   --border: #797979;
   --global_font: #e7e9eb;
@@ -533,7 +533,7 @@ p {
 
 /* body */
 body {
-  background-color: var(--primary);
+  background-color: var(--mainheader_bg);
   margin: 5px;
 }
 
@@ -866,9 +866,10 @@ p.worldsay tr[bgcolor="#FFAEA1"] td {
 td.mainheader {
   font-size: 35px;
   background-color: var(--mainheader_bg);
+  border: 1px solid var(--border) !important;
 }
 table.areadescription {
-  border: 1px solid var(--border);
+  /* border: 1px solid var(--border); */
   background-color: var(--area_bg);
   width: 100%;
 }
@@ -876,7 +877,7 @@ td.areadescription {
   padding: 0px;
 }
 .tdplaceenv {
-  border: 1px solid var(--area_bg) !important;
+  /* border: 1px solid var(--border) !important; */
 }
 .imageborder {
   border: 1px solid #797979;
