@@ -3,7 +3,7 @@
 
 
 :root {
-    --primary: #373737;
+    --primary: #202020;
     --chat_bg: #2e2e2e;
     --area_bg: #575757;
     --mainheader_bg: #2e2e2e;
@@ -169,7 +169,7 @@
 
     .valueincreased     { font-weight: bold; color: #ff0000; }
     .itemamount         { font-weight: bold; color: var(--linkcolor); }
-    .itemequipped       { font-weight: bold; color: #ff0000; }
+    .itemequipped       { font-weight: bold; color: #00b7ff; }
     .itemmagic          { font-weight: bold; color: green }
     .magicextend        { font-weight: bold; color: var(--color_healthok); }
     .iteminventorypics  { visibility: visible; }
