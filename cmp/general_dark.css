@@ -540,7 +540,7 @@ body {
 /* table */
 table {
   border: 0px;
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
 } /* cellspacing & cellpadding & border =0 no longer needed
     td          { padding:0px; margin:0px; }
 
@@ -869,14 +869,14 @@ td.mainheader {
 }
 table.areadescription {
   border: 1px solid var(--border);
-  background-color: var(--area_bg);
+  background-color: var(--chat_bg);
   width: 100%;
 }
 td.areadescription {
   padding: 0px;
 }
 .tdplaceenv {
-  border: 1px solid var(--area_bg) !important;
+  border: 1px solid var(--chat_bg) !important;
 }
 .imageborder {
   border: 1px solid #797979;
@@ -973,6 +973,7 @@ p.positiontext {
 p.personlistcaption {
   font-weight: bold;
   padding: 1px;
+  border-bottom: 1px solid var(--border);
 }
 p.itemlistcaption {
   font-weight: bold;
