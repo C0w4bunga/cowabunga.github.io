@@ -4,8 +4,8 @@
 
 :root {
     --primary: #202020;
-    --chat_bg: #575757;
-    --area_bg: #575757;
+    --chat_bg: #000000;
+    --area_bg: #6b7b99;
     --mainheader_bg: #202020;
     --border: #797979;
     --global_font:#e7e9eb;
