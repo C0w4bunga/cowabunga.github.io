@@ -1462,6 +1462,62 @@ table.areadescription .areadescription {
 table.areadescription tr:nth-of-type(2) .areadescription {
   background: #fafafa url(i/noise.png) left top repeat-x;
 }
+.listusersrow .fastattack::after {
+  content: "\2694";
+  font-size: 30px;
+  position: absolute;
+  right: 5px;
+  background: #eeeeee;
+  padding: 7px;
+  display: inline;
+  width: 30px;
+  height: 30px;
+  line-height: 1;
+  padding: 5px;
+  border: 1px solid #797979;
+  border-right-color: rgb(42, 42, 42);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
+}
+/* .listusersrow .fastchase::after {
+    content: "\2691";
+    font-size: 30px;
+    position: absolute;
+    right: 60px;
+    background: #eeeeee;
+    padding: 7px;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    line-height: 1;
+    padding: 5px;
+    border: 1px solid #797979;
+    border-right-color: rgb(42, 42, 42);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-radius: 5px 5px 5px 5px;
+} */
+.listplaceitemsrow a::after {
+  content: "\2666";
+  font-size: 30px;
+  position: absolute;
+  right: 5px;
+  background: #eeeeee;
+  display: inline;
+  width: 30px;
+  height: 30px;
+  line-height: 1;
+  padding: 5px;
+  border: 1px solid #797979;
+  border-right-color: rgb(42, 42, 42);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
+  text-align: center;
+}
 .listusersrow,
 .listplaceitemsrow {
   padding: 3px 8px;
