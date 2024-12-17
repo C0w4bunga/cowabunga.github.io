@@ -539,6 +539,7 @@ p {
 body {
   background-color: var(--primary);
   margin: 5px;
+  overflow-x: hidden;
 }
 
 /* table */
@@ -973,7 +974,7 @@ p.positiontext {
   /* border: 1px solid var(--border); */
   border: 1px solid var(--blauer_indicator);
   overflow: hidden;
-  margin-top: 3px ;
+  margin-top: 3px;
 }
 .itemlistcaption,
 .listplaceitemsrow {
@@ -982,7 +983,7 @@ p.positiontext {
   border: 1px solid var(--item_equipped);
   padding: 5px;
   overflow: hidden;
-  margin-top: 3px ;
+  margin-top: 3px;
 }
 p.personlistcaption {
   font-weight: bold;
