@@ -2,7 +2,7 @@
 
 :root {
   --primary: #22262d;
-  --npc_list_bg: #202020;
+  --npclist_bg: #3e2222;
   --chat_bg: #000000;
   --area_bg: #22262d;
   --mainheader_bg: #000000;
@@ -217,6 +217,7 @@ p.listcaption {
   padding: 1px;
   padding-left: 5px;
   margin-bottom: 3px;
+  background: var(--area_bg);
 }
 #listrow_char_mission a:last-of-type,
 #listrow_aka_battlep b:last-of-type:not(:first-of-type) {
@@ -801,7 +802,7 @@ select {
 }
 
 .listusersrow > b {
-  color: var(--npc_highlight);
+  color: var(--blauer_indicator);
 }
 .areadescription > b {
   color: var(--npc_highlight);
@@ -812,7 +813,7 @@ p.worldsay tr[bgcolor="#99EE99"] td {
 }
 p.worldsay tr[bgcolor="#C1CEF9"] td {
   color: black;
-  background-color: #898b91;
+  background-color: var(--chat_global);
 }
 p.worldsay tr[bgcolor="#EEEE99"] td {
   color: black;
@@ -820,7 +821,7 @@ p.worldsay tr[bgcolor="#EEEE99"] td {
 }
 p.worldsay tr[bgcolor="#FFAEA1"] td {
   color: black;
-  background-color: #898b91;
+  background-color: var(--chat_global);
 }
 
 /* Wetter */
@@ -958,12 +959,13 @@ p.positiontext {
 .personlistcaption,
 .listusersrow {
   max-width: calc(90% + 50px + 0.5em) !important;
-  background-color: var(--npc_list_bg);
+  background-color: var(--npclist_bg);
   padding: 5px;
   padding-left: 1px;
   /* border: 1px solid var(--border); */
-  border-top: 1px solid var(--border);
+  border: 1px solid var(--blauer_indicator);
   overflow: hidden;
+  margin-top: 3px ;
 }
 .itemlistcaption,
 .listplaceitemsrow {
@@ -972,16 +974,19 @@ p.positiontext {
   border: 1px solid var(--item_equipped);
   padding: 5px;
   overflow: hidden;
+  margin-top: 3px ;
 }
 p.personlistcaption {
   font-weight: bold;
-  padding: 1px;
+  padding: 3px;
   border: 1px solid var(--border);
+  background-color: var(--chat_bg);
 }
 p.itemlistcaption {
   font-weight: bold;
-  padding: 1px;
+  padding: 3px;
   border: 1px solid var(--border);
+  background-color: var(--chat_bg);
 }
 
 /*.listusersrow font[color="#0055AA"] {color: #73ffff;}*/
