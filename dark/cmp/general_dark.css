@@ -544,7 +544,7 @@ body {
 /* table */
 table {
   border: 0px;
-  padding: 5px;
+  padding: 0px;
   /* border-collapse: collapse; */
 } /* cellspacing & cellpadding & border =0 no longer needed
     td          { padding:0px; margin:0px; }
@@ -757,6 +757,8 @@ select {
 }
 .chattext {
   font-size: 13px;
+  border-bottom: 1px dotted var(--item_equipped);
+  max-width: fit-content;
 }
 .chattext > b {
   color: #fff;
@@ -870,7 +872,8 @@ p.worldsay tr[bgcolor="#FFAEA1"] td {
 
 /* main module */
 td.mainheader {
-  font-size: 35px;
+  font-size: 20px;
+  font-weight: bold;
   background-color: var(--mainheader_bg);
 }
 table.areadescription {
@@ -880,6 +883,10 @@ table.areadescription {
 }
 td.areadescription {
   padding: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 1;
 }
 .tdplaceenv {
   border: 1px solid var(--chat_bg) !important;
@@ -896,7 +903,7 @@ p.maincaption {
   padding: 1px;
   padding-left: 1px;
   background-color: var(--mainheader_bg);
-  border: 1px solid var(--border);
+  /* border: 1px solid var(--border); */
 }
 p.maincaption2 {
   font-weight: bold;
@@ -904,7 +911,7 @@ p.maincaption2 {
   padding: 1px;
   padding-left: 1px;
   background-color: var(--mainheader_bg);
-  border: 1px solid var(--border);
+  /* border: 1px solid var(--border); */
 }
 p.maindesc1 {
   padding: 1px;
@@ -923,7 +930,7 @@ p.maindesc2 {
 /* map module */
 p.positiontext {
   background-color: var(--area_bg);
-  border: 1px solid #555555;
+  border: 0px solid #555555;
   color: #ffffff;
   font-size: 10px;
   margin-left: 0px;
