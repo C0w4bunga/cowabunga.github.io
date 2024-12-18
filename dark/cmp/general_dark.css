@@ -213,6 +213,7 @@ a[href*="msg_isreport"]::after {
 
 p.listcaption {
   border: 1px solid #a2a09f;
+  border-radius: 5px 5px 5px 5px;
   font-weight: bold;
   padding: 1px;
   padding-left: 5px;
@@ -387,6 +388,10 @@ p.listcaption {
 #listrow_defensep > b,
 #listrow_ring > b {
   display: none;
+}
+#listrow_lifep a {
+  font-weight: bold;
+  font-size: 115%;
 }
 #listrow_attackw a {
   font-size: 0;
@@ -671,6 +676,7 @@ select {
 .submitsagen {
   background-color: var(--area_bg);
   border: 1px solid var(--border);
+  border-radius: 5px 5px 5px 5px;
   color: #fff;
   font-size: 11px;
   font-weight: bold;
@@ -683,6 +689,7 @@ select {
 .submitclan {
   background-color: var(--area_bg);
   border: 1px solid var(--border);
+  border-radius: 5px 5px 5px 5px;
   color: var(--chat_clan);
   font-size: 11px;
   font-weight: bold;
@@ -695,6 +702,7 @@ select {
 .submitschreien {
   background-color: var(--area_bg);
   border: 1px solid var(--border);
+  border-radius: 5px 5px 5px 5px;
   color: var(--chat_scream);
   font-size: 11px;
   font-weight: bold;
@@ -706,6 +714,7 @@ select {
 .submitgroup {
   background-color: var(--area_bg);
   border: 1px solid var(--border);
+  border-radius: 5px 5px 5px 5px;
   color: var(--chat_group);
   font-size: 11px;
   font-weight: bold;
@@ -717,6 +726,7 @@ select {
 .submitwhisper {
   background-color: var(--area_bg);
   border: 1px solid var(--border);
+  border-radius: 5px 5px 5px 5px;
   color: var(--chat_whisper);
   font-size: 11px;
   font-weight: bold;
@@ -728,6 +738,7 @@ select {
 .submitglobalchat {
   background-color: var(--area_bg);
   border: 1px solid var(--border);
+  border-radius: 5px 5px 5px 5px;
   color: var(--chat_global);
   font-size: 11px;
   font-weight: bold;
@@ -866,6 +877,7 @@ p.worldsay tr[bgcolor="#FFAEA1"] td {
   margin-top: 3px;
   background-color: var(--chat_bg);
   border: 2px solid var(--border);
+  border-radius: 5px 5px 5px 5px;
 }
 .framemenubg {
   background-color: var(--chat_bg);
@@ -881,6 +893,9 @@ table.areadescription {
   border: 1px solid var(--border);
   background-color: var(--chat_bg);
   width: 100%;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5;
+}
 }
 td.areadescription {
   padding: 0px;
@@ -894,6 +909,7 @@ td.areadescription {
 }
 .imageborder {
   border: 1px solid #797979;
+  border-radius: 5px 5px 5px 5px;
   background-color: #797979;
   margin-right: 1px;
   margin-bottom: 1px;
@@ -975,6 +991,7 @@ p.positiontext {
   border: 1px solid var(--blauer_indicator);
   overflow: hidden;
   margin-top: 3px;
+  border-radius: 5px 5px 5px 5px;
 }
 .itemlistcaption,
 .listplaceitemsrow {
@@ -984,17 +1001,20 @@ p.positiontext {
   padding: 5px;
   overflow: hidden;
   margin-top: 3px;
+  border-radius: 5px 5px 5px 5px;
 }
 p.personlistcaption {
   font-weight: bold;
   padding: 3px;
   border: 1px solid var(--border);
+  border-radius: 5px 5px 0px 0px;
   background-color: var(--chat_bg);
 }
 p.itemlistcaption {
   font-weight: bold;
   padding: 3px;
   border: 1px solid var(--border);
+  border-radius: 5px 5px 0px 0px;
   background-color: var(--chat_bg);
 }
 
